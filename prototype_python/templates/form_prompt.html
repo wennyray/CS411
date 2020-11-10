@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Prototype | CS411</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>Weather Prototype</h1>
+    </header>
+    <div class="container">
+        <form action = "http://localhost:5000/result" method = "POST">
+            <label for="cityname">Enter a city:</label>
+            <br>
+            <input type="text" id="cityname" name="cityname">
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
