@@ -8,16 +8,27 @@
 <body>
     <header>
         <h1>Weather Prototype</h1>
+        <button type="button" class="logout-button">
+            <span class="glyphicon glyphicon-log-out"></span> Log out
+        </button>
     </header>
-    <div class="container">
-        <form action="form_submission.html" method="GET">
-            <label for="cityname">Enter a city:</label>
-            <br>
-            <input type="text" id="cityname" name="cityname">
-            <br>
-            <br>
-            <input type="submit" value="Submit">
-        </form>
+    <div class="row">
+        <div class="column1">
+        </div>
+        <div class="column2">
+            <div class="container">
+                <form method="get"> <!-- add action=""-->
+                    <label for="cityname">Enter a city:</label>
+                    <br>
+                    <br>
+                    <input type="text" id="cityname" name="cityname">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <div class="column3">
+
+        </div>
     </div>
 </body>
 </html>
