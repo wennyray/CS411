@@ -1,3 +1,16 @@
 h1 {
     font-weight: bold;
 }
+
+header {
+    text-align: center;
+}
+
+.column2 {
+    text-align: center;
+}
+
+.logout-button {
+    float: right;
+}
+
