@@ -1,0 +1,21 @@
+header {
+    text-align: center;
+}
+
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
